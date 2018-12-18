@@ -1,18 +1,5 @@
-import React from "react";
+import ReactColorSquare from './ReactColorSquare/ReactColorSquare';
 
-const ReactColorSquare = props => {
-  const { width, height, color, text } = props;
-  return (
-    <div
-      style={{
-        width: width || 100,
-        height: height || 100,
-        backgroundColor: color || "blue"
-      }}
-    >
-      {text}
-    </div>
-  );
+export {
+  ReactColorSquare,
 };
-
-export default ReactColorSquare;

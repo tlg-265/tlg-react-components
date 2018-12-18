@@ -3,7 +3,7 @@ import "materialize-css/dist/js/materialize.min.js";
 
 import React, { Component } from "react";
 
-import ReactColorSquare from "react-color-square";
+import { ReactColorSquare } from "react-color-square";
 
 class App extends Component {
   render() {
