@@ -26,13 +26,11 @@ class MarketplacePartnerModal extends Component {
     this.setState({ open: false });
   }
 
-  /*
   componentWillReceiveProps = (nextProps) => {
     if (JSON.stringify(this.state.marketplacePartners) !== JSON.stringify(nextProps.marketplacePartners)) {
       this.setState({ marketplacePartners: nextProps.marketplacePartners });
     }
   }
-  */
 
   render() {
     let buttonCloseStyle = {
