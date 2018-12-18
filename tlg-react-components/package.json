@@ -11,8 +11,8 @@
     "react": "^16.4.0"
   },
   "scripts": {
-    "start": "webpack --watch",
-    "build": "webpack"
+    "start": "webpack --mode production --watch",
+    "build": "webpack --mode production"
   },
   "author": {
     "name": "codewithbernard"
