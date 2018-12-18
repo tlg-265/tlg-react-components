@@ -1,0 +1,67 @@
+.fancy-checkbox-text-input {
+// BEGIN OF COMPONENT STYLE
+
+font-family: 'Nunito', sans-serif;
+font-size: 28px;
+color: #9e9c9d !important;
+background-color: #f2f2f2;
+display: block;
+border: 1px solid #cccccc;
+border-radius: 4px;
+padding: 16px 20px;
+text-align: left;
+margin-bottom: 10px;
+
+.pretty.p-svg {
+  .state img,
+  .state label,
+  dummy {
+    position: initial;
+    text-indent: initial;
+    vertical-align: 0;
+  }
+  .state img {
+    width: 40px;
+    height: 35px;
+  }
+  .state label {
+    vertical-align: 6px;
+    font-weight: 800;
+    margin-left: 10px;
+  }
+  .state.p-on label {
+    color: transparent;
+  }
+  .state.p-on input[type="text"],
+  .title,
+  dummy {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+  }
+  .state.p-on input[type="text"] {
+    display: block;
+    top: 10px;
+    width: 300px;
+    opacity: initial;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    color: #103643;
+    background-color: #f2f2f2;
+    border: none;
+    margin-left: 58px;
+    width: 180px;
+    cursor: text;
+    outline: none;
+  }
+  .title {
+    position: absolute;
+    font-size: 15px;
+    z-index: 3;
+    top: -7px;
+    left: 58px;
+  }
+}
+
+// END OF COMPONENT STYLE
+}
