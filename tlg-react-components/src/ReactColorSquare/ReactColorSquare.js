@@ -1,9 +1,10 @@
 import React from "react";
+import './ReactColorSquare.scss';
 
 const ReactColorSquare = props => {
   const { width, height, color, text } = props;
   return (
-    <div
+    <div className="react-color-square"
       style={{
         width: width || 100,
         height: height || 100,
