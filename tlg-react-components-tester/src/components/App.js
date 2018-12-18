@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
-import { ReactColorSquare, FancyCheckboxTextInput, MarketplacePartnerModal } from "tlg-react-components";
+import { FancyCheckboxTextInput, MarketplacePartnerModal } from "tlg-react-components";
 import './App.css';
 
 class App extends Component {
@@ -81,8 +81,6 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-
-        <ReactColorSquare width={150} color="red" text="Hello World!" />
 
         <div style={{ width: '500px' }}>
           <FancyCheckboxTextInput name="debt_01" text="I Have Debt 01" title="Debt 01" />
